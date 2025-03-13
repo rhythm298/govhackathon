@@ -93,6 +93,18 @@ To set up the project locally:
 - **Data Visualization:**
   - Use the dashboard to view real-time traffic conditions and disease surveillance maps.
 
+-**For Ai predictive diseases analysis dashboard**
+ **File Extension and Requirements**
+- To run this dashboard, you'll need to install these Python packages:
+ ```bash 
+pip install pandas numpy matplotlib seaborn plotly dash dash-bootstrap-components scikit-learn scipy
+ ```
+Install the required packages
+Run the script with python disease_surveillance_dashboard.py
+Open your web browser and navigate to http://127.0.0.1:8050/
+
+The dashboard uses Dash (built on Flask) to create an interactive web application that you can access through your browser. The code generates sample disease data for demonstration purposes, but in a real implementation, you would connect to your actual data sources.
+
 ## Data Sources
 
 - **Traffic Data:**
@@ -125,4 +137,6 @@ We welcome contributions from the community. To contribute:
 5. Open a pull request detailing your changes.
 
 Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+
+
 
